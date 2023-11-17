@@ -1,0 +1,40 @@
+body {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  background: #e5e5e5;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #ffffff;
+}
+
+.main-content {
+  padding-left: 80px;
+  padding-top: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+}
+
+.my-photo {
+  margin-bottom: 40px;
+}
+
+.about-me {
+  margin-bottom: 40px;
+}
+
+.yellow-bgd {
+  background: yellow;
+}
+
+aside {
+  background: #dfeeff;
+}
+
+.contacts-header {
+  color: red;
+}
