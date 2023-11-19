@@ -67,13 +67,74 @@ body {
   color: #000000;
 }
 
-.project-item {
+.projects-list {
+  padding-left: 20px;
+}
+
+.projects-item {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #000000;
   list-style: decimal;
+}
+
+.projects-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #2979ff;
+}
+
+.projects-tech {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.company-container {
+  margin-bottom: 8px;
+}
+
+.company-position {
+  margin-bottom: 12px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.company-position-accent {
+  color: #6096ff;
+}
+
+.company-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+
+.company-duties-list {
+  padding-left: 20px;
+}
+
+.company-duties-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  list-style: disc;
 }
 
 .sidebar {
