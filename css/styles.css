@@ -4,12 +4,15 @@ body {
   padding-right: 40px;
   padding-bottom: 40px;
   background: #e5e5e5;
+  font-family: "Montserrat", sans-serif;
 }
 
 .wrapper {
   display: flex;
   flex-direction: row-reverse;
   background: #ffffff;
+  width: 1200px;
+  margin: auto;
 }
 
 .main-content {
@@ -27,14 +30,38 @@ body {
   margin-bottom: 40px;
 }
 
-.yellow-bgd {
-  background: yellow;
+.my-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
 }
 
-aside {
+.my-summary {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
+}
+
+.sidebar {
   background: #dfeeff;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.contacts-header {
-  color: red;
+.sidebar-content {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 80px;
+}
+
+.sidebar-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+  margin-bottom: 8px;
 }
