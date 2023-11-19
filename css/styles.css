@@ -116,13 +116,18 @@ body {
 }
 
 .company-period {
+  margin-bottom: 8px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
-  margin-bottom: 8px;
 }
+
+/* .company-period:nth-child(n + 5) {
+  margin-bottom: 0;
+} */
 
 .company-duties-list {
   padding-left: 20px;
@@ -135,6 +140,16 @@ body {
   line-height: 24px;
   color: #595959;
   list-style: disc;
+}
+
+.education-specialty {
+  margin-bottom: 8px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: normal;
+  color: #000000;
 }
 
 .sidebar {
