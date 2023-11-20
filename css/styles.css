@@ -159,9 +159,7 @@ body {
 }
 
 .sidebar-content {
-  padding-top: 40px;
-  padding-left: 40px;
-  padding-right: 80px;
+  padding: 40px;
 }
 
 .sidebar-title {
