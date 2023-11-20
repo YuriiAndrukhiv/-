@@ -101,7 +101,8 @@ body {
   margin-bottom: 8px;
 }
 
-.company-position {
+.company-position,
+.education-position {
   margin-bottom: 12px;
 
   font-style: normal;
@@ -111,11 +112,13 @@ body {
   color: #000000;
 }
 
-.company-position-accent {
+.company-position-accent,
+.education-position-accent {
   color: #6096ff;
 }
 
-.company-period {
+.company-period,
+.education-period {
   margin-bottom: 8px;
 
   font-style: normal;
@@ -124,10 +127,6 @@ body {
   line-height: 15px;
   color: #a8a8a8;
 }
-
-/* .company-period:nth-child(n + 5) {
-  margin-bottom: 0;
-} */
 
 .company-duties-list {
   padding-left: 20px;
@@ -150,6 +149,10 @@ body {
   font-size: 14px;
   line-height: normal;
   color: #000000;
+}
+
+.education-container div:last-child .education-period {
+  margin-bottom: 0;
 }
 
 .sidebar {
