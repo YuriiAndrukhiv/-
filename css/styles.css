@@ -1,8 +1,5 @@
 body {
-  padding-left: 40px;
-  padding-top: 40px;
-  padding-right: 40px;
-  padding-bottom: 40px;
+  padding: 40px;
   background: #e5e5e5;
   font-family: "Montserrat", sans-serif;
 }
@@ -16,10 +13,7 @@ body {
 }
 
 .main-content {
-  padding-left: 88px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  padding-right: 40px;
+  padding: 80px 40px 80px 88px;
 }
 
 .about-me {
