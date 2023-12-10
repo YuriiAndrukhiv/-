@@ -203,6 +203,10 @@ body {
   margin-bottom: 0px;
 }
 
+.skills-list {
+  padding-left: 16px;
+}
+
 .skills-item {
   font-style: normal;
   font-weight: 400;
@@ -210,8 +214,4 @@ body {
   line-height: 24px;
   color: #161d2a;
   list-style: disc;
-}
-
-.skills-list {
-  padding-left: 16px;
 }
